@@ -48,11 +48,11 @@ python manage.py createsuperuser
 ```
 ---
 
-✨ _Proyecto diseñado y desarrollado por_ **[Tatu Vergara](https://github.com/tatu-vergara)** ✨  
-🎵 Músicx · 🧠 Desarrolladorx Fullstack  
-
 # 6. Inicializar roles y permisos
 python manage.py init_roles
 
 # 7. Ejecutar servidor
 python manage.py runserver
+
+✨ _Proyecto diseñado y desarrollado por_ **[Tatu Vergara](https://github.com/tatu-vergara)** ✨  
+🎵 Músicx · 🧠 Desarrolladorx Fullstack  
