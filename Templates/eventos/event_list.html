@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Eventos</h2>
+<ul>
+  {% for e in events %}
+    <li>
+      <a href="{% url 'event_detail' e.pk %}">{{ e.title }}</a>
+      {% if e.is_private %}<small>(Privado)</small>{% endif %}
+      — {{ e.date }} — Organizador: {{ e.organizer.username }}
+    </li>
+  {% empty %}
+    <li>No hay eventos.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

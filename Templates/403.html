@@ -1,0 +1,7 @@
+<!-- templates/403.html -->
+{% extends "base.html" %}
+{% block content %}
+<h2>403 — Acceso denegado</h2>
+<p>No tienes permisos para acceder a esta página.</p>
+<a href="{% url 'event_list' %}">Volver a la lista</a>
+{% endblock %}
